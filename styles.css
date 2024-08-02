@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+.caixa{
+  width: 100%;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+.verde{
+  border-color: rgb(20, 120, 23) !important;
+  background-color: rgb(220, 255, 225) !important;
+}
+
+.azul{
+  border-color: rgb(20, 60, 120) !important;
+  background-color: rgb(220, 230, 225) !important;
+}
+.vermelho{
+  border-color: rgb(120, 20, 20) !important;
+  background-color: rgb(255, 220, 220) !important;
+}
+#pesquisarBTN{
+  margin-top: 3px;
+  border: 2px solid black;
+  width: 100px;
+  height: 40px;
+  background: #101878;
+  color: #ffff;
+  border-radius: 10px;
+}
